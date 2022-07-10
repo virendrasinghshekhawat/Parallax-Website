@@ -1,0 +1,66 @@
+body, html{
+    height:100%;
+    margin:0;
+    font-size:16px;
+    font-family:"Lato", sans-serif;
+    font-weight:400;
+    line-height:1.8em;
+    color:#666;
+  }
+  
+  .para-img-1{
+      background-image: url(Delhi-India-Government.jpg);
+      min-height: 100%;
+  }
+  .para-img-2{
+    background-image: url(./Madhavi-Gaur.webp);
+    min-height: 100%;
+}
+.para-img-3{
+    background-image: url(./Red-Fort-ili-276-ogimg.jpg);
+    min-height: 100%;
+}
+.para-img-4{
+    background-image: url(./qutubminar.jpg);
+    min-height: 100%;
+}
+.para-img-5{
+    background-image: url(./hawa-mahal-441563_960_720.jpg);
+    min-height: 100%;
+}
+.para-img-6{
+    background-image: url(./gateway.jpg);
+    min-height: 100%;
+}
+  .para-img-1 , .para-img-2 , .para-img-3,.para-img-4,.para-img-5,.para-img-6{
+      position: relative;
+      opacity: 0.60;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+  }
+  .center{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .p-text{  
+    width: 50%;
+    text-align: center;
+    color: #000;
+    font-size: 15px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    background: thistle;
+  } 
+   .orange{
+      color: orangered;
+      font-size: 2rem;
+      font-weight: 800;
+  }
+ 
+  .section{
+      padding: 3rem 8rem;
+      text-align: center;
